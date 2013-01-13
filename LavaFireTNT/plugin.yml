@@ -1,0 +1,16 @@
+name: LavaFireTNT
+main: me.tom.LFT.LFT
+version: 0.1
+description: Limit the usage of lava, fire, and TNT on your server
+authors:
+  - Tom
+permissions:
+  TNT.place:
+    description: A player can place TNT blocks.
+    default: op
+  lava.place:
+    description: A player can place lava/lava buckets.
+    default: op
+  fire.place:
+    description: A player can use flint and steel.
+    default: op
